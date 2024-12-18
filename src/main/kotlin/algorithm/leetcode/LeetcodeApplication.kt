@@ -1,5 +1,13 @@
 package algorithm.leetcode
 
-fun main() {
+import algorithm.leetcode.easy.longestCommonPrefix
 
+fun main() {
+    println(
+        longestCommonPrefix(
+            arrayOf(
+                "dog","racecar","car"
+            )
+        )
+    )
 }
