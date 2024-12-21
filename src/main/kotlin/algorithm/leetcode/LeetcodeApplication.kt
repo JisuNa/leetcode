@@ -1,13 +1,12 @@
 package algorithm.leetcode
 
-import algorithm.leetcode.easy.longestCommonPrefix
+import algorithm.leetcode.easy.TreeNode
+import algorithm.leetcode.easy.binaryTreeInorderTraversal
 
 fun main() {
-    println(
-        longestCommonPrefix(
-            arrayOf(
-                "dog","racecar","car"
-            )
-        )
-    )
+    val tree = TreeNode(1).also {
+        it.left = TreeNode(2)
+        it.right = TreeNode(3)
+    }
+    println(binaryTreeInorderTraversal(tree))
 }

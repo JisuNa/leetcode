@@ -1,4 +1,4 @@
-package algorithm.leetcode.easy
+package algorithm.leetcode.medium
 
 fun lengthOfLongestSubstring(s: String): Int {
     if (s.isEmpty()) return 0

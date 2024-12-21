@@ -1,4 +1,4 @@
-package algorithm.leetcode.easy
+package algorithm.leetcode.medium
 
 fun ListNode?.value() = this?.`val` ?: 0
 
